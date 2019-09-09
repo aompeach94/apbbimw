@@ -18015,7 +18015,6 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Text,
 	cr.plugins_.Mouse.prototype.cnds.OnObjectClicked,
 	cr.system_object.prototype.acts.GoToLayout,
-	cr.plugins_.Mouse.prototype.cnds.OnClick,
 	cr.system_object.prototype.cnds.OnLayoutStart,
 	cr.plugins_.Sprite.prototype.acts.SetAnimSpeed,
 	cr.plugins_.Sprite.prototype.acts.SetAnimFrame,
@@ -18029,6 +18028,8 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Text.prototype.exps.Text,
 	cr.plugins_.Sprite.prototype.cnds.CompareFrame,
 	cr.plugins_.Sprite.prototype.acts.SetVisible,
-	cr.system_object.prototype.acts.NextPrevLayout
+	cr.system_object.prototype.acts.NextPrevLayout,
+	cr.system_object.prototype.acts.AddVar,
+	cr.system_object.prototype.cnds.EveryTick
 ];};
 
